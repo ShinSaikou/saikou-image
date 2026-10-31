@@ -1,0 +1,6 @@
+# JitPack builds a tag on its first request. AGP 9 needs JDK 17 or later; it installs the Android
+# platform the build compiles against by itself (JitPack's own sdkmanager does not run on JDK 21).
+jdk:
+  - openjdk21
+install:
+  - ./gradlew :image:publishToMavenLocal -x test

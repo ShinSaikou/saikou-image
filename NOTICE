@@ -1,0 +1,21 @@
+saikou-image
+Copyright 2026 The Saikou authors
+
+This product is licensed under the Apache License, Version 2.0 (see LICENSE).
+
+This product includes software developed by the Mihon Open Source Project
+(https://github.com/mihonapp/mihon), licensed under the Apache License, Version 2.0:
+
+    Copyright 2015 Javier Tomás
+    Copyright 2024 Mihon Open Source Project
+
+Every source file taken from that project ("upstream") carries the first line
+
+    // Vendored from upstream v<version>: <path> (modified: yes|no) [what changed]
+
+where <path> is the file's path in the upstream repository at that version, and a file marked
+"modified: yes" says on that line how it was changed.
+
+ImageUtil's list of devices with broken hardware bitmap support is taken from Coil
+(https://github.com/coil-kt/coil), Copyright Coil Contributors, licensed under the Apache
+License, Version 2.0.

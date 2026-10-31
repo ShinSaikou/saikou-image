@@ -1,0 +1,23 @@
+[versions]
+android-gradle = "9.4.0"
+android-sdk-compile = "37"
+android-sdk-min = "26"
+androidx-annotation = "1.10.0"
+androidx-core = "1.19.0"
+java = "17"
+junit = "6.1.2"
+kotest-assertions = "6.2.3"
+kotlin-gradle = "2.4.10"
+okio = "3.18.1"
+
+[libraries]
+androidx-annotation = { module = "androidx.annotation:annotation", version.ref = "androidx-annotation" }
+androidx-core-ktx = { module = "androidx.core:core-ktx", version.ref = "androidx-core" }
+junit-jupiter = { module = "org.junit.jupiter:junit-jupiter", version.ref = "junit" }
+junit-platform-launcher = { module = "org.junit.platform:junit-platform-launcher", version.ref = "junit" }
+kotest-assertions = { module = "io.kotest:kotest-assertions-core", version.ref = "kotest-assertions" }
+kotlin-gradle = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin-gradle" }
+okio = { module = "com.squareup.okio:okio", version.ref = "okio" }
+
+[plugins]
+android-library = { id = "com.android.library", version.ref = "android-gradle" }
